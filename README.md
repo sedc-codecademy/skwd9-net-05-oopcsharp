@@ -1,2 +1,2 @@
-# skwd9-net-05-oopcsharp
-Source code repository for SEDC Code Academy @Skopje 9.0 .NET track 5th subject 'OOP with C#' students exercises.
+# Welcome to C# Basic
+This is an introductory course for the programming language C# and introduction to working with Visual Studio. This is also the first course of the back end part of the academy. In this course we will start from the beginning and get some basic understanding of the C# language as well as Visual Studio and the goal would be for everyone to be familiar with the C# language and comfortably work with Visual Studio. For working at home you would need to install Visual Studio 2019. To do that follow [this link](https://github.com/sedc-codecademy/skwd9-net-05-oopcsharp/blob/master/VisualStudio.md). Good luck
