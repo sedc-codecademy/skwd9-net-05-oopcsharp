@@ -25,3 +25,4 @@
 ## Extra materials
 * [Rextester - An online tool for running C#](https://rextester.com/)
 * [DOT.NET Fiddle - An online tool for running C#](https://dotnetfiddle.net/)
+* [Git experience](https://docs.microsoft.com/en-us/visualstudio/ide/git-with-visual-studio?view=vs-2019)
