@@ -16,15 +16,3 @@ In your console application Main method write:
  - Console.ReadLine();
  - Click on the Start(play) button
 
-## Exercise 03
-
-Create a new console application called ‘Stars’ in the same solution
-Try to create a triangle using the * character.
-Expected Output:       
-					   *     
-					  ***    
-					 *****   
-					*******  
-                   *********
-
-## Exercise 04
