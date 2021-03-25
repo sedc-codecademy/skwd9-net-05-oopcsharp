@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataTypes", "DataTypes\DataTypes.csproj", "{A45D1393-6D29-4D98-BA8B-D284A7F28E55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parsing", "Parsing\Parsing.csproj", "{05830D4A-F8BD-40A4-BBA5-9E502B25339F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Branching", "Branching\Branching.csproj", "{2672AA5A-D28B-4A1D-944A-D76F5C8AACA3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A45D1393-6D29-4D98-BA8B-D284A7F28E55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A45D1393-6D29-4D98-BA8B-D284A7F28E55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A45D1393-6D29-4D98-BA8B-D284A7F28E55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A45D1393-6D29-4D98-BA8B-D284A7F28E55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05830D4A-F8BD-40A4-BBA5-9E502B25339F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05830D4A-F8BD-40A4-BBA5-9E502B25339F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05830D4A-F8BD-40A4-BBA5-9E502B25339F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05830D4A-F8BD-40A4-BBA5-9E502B25339F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2672AA5A-D28B-4A1D-944A-D76F5C8AACA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2672AA5A-D28B-4A1D-944A-D76F5C8AACA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2672AA5A-D28B-4A1D-944A-D76F5C8AACA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2672AA5A-D28B-4A1D-944A-D76F5C8AACA3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {46CEA99E-E62F-40FB-913A-C47C00919627}
+	EndGlobalSection
+EndGlobal
