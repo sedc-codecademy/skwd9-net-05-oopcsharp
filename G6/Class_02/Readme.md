@@ -1,4 +1,4 @@
-# Class 02 - Data Types and Branching :yum:
+# Class 02 - Data Types and Branching 
 ## Data Types
 C# is a strict typed language. This means that it really cares about the type of the values that we use as well as where and how we use them. This is why in C# we can't just use one variable keyword to write a new variable, but we need to use multiple depending on the type of the data that we need to add there. We also can't change the type of a variable or put different type in a variable that we have declared previously. We create a variable of a type and we must put value of that type there. Some of the types are:
 ```markdown
