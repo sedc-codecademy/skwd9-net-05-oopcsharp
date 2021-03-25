@@ -50,6 +50,27 @@ namespace Branching
                     Console.WriteLine("There is no such day!");
                     break;
             }
+
+            //exercise 5
+            var n = 8;
+            var m = 5;
+
+            var trees = int.Parse(Console.ReadLine());
+
+            var allApples = n * 12 * trees;
+
+            int result;
+
+            if (allApples % m == 0)
+            {
+                result = allApples / m;
+            }
+            else 
+            {
+                result = (allApples / m) + 1;
+            }
+
+            Console.WriteLine(result);
         }
     }
 }
