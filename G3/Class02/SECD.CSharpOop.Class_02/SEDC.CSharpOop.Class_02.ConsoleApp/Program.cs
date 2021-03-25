@@ -36,6 +36,8 @@ namespace SEDC.CSharpOop.Class_02.ConsoleApp
             bool isOngoing = true;
             // Declaring string
             string title = "Hello G3 we are learning about data types.";
+            //We can not declare variable with the same name
+            //string title = "";
 
             // object type
             object myObj = new object();
