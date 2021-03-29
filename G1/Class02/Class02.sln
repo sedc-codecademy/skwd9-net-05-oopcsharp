@@ -3,23 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31005.135
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataTypes", "DataTypes\DataTypes.csproj", "{4773E2D0-3C18-4756-AA8D-7A3324621CFA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataTypes", "DataTypes\DataTypes.csproj", "{4773E2D0-3C18-4756-AA8D-7A3324621CFA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise1", "Exercise1\Exercise1.csproj", "{DB903E9C-EE60-40D8-9E14-5AAC2EC46C7B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercise1", "Exercise1\Exercise1.csproj", "{DB903E9C-EE60-40D8-9E14-5AAC2EC46C7B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise2", "Exercise2\Exercise2.csproj", "{3FE45531-2BE1-40C4-90DF-7A30303590DA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercise2", "Exercise2\Exercise2.csproj", "{3FE45531-2BE1-40C4-90DF-7A30303590DA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise3", "Exercise3\Exercise3.csproj", "{C939FB6E-F62F-410F-A909-270B45034657}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercise3", "Exercise3\Exercise3.csproj", "{C939FB6E-F62F-410F-A909-270B45034657}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise4", "Exercise4\Exercise4.csproj", "{516D6748-06EE-49D3-B339-786457A5AD0F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercise4", "Exercise4\Exercise4.csproj", "{516D6748-06EE-49D3-B339-786457A5AD0F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conversion", "Conversion\Conversion.csproj", "{EF9F9D53-E913-4D6F-8464-48EE6D5CE51A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Conversion", "Conversion\Conversion.csproj", "{EF9F9D53-E913-4D6F-8464-48EE6D5CE51A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise5", "Exercise5\Exercise5.csproj", "{D6421109-9232-4780-A5E0-8477A78CC4D3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercise5", "Exercise5\Exercise5.csproj", "{D6421109-9232-4780-A5E0-8477A78CC4D3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwitchDemo", "SwitchDemo\SwitchDemo.csproj", "{85DE8A62-1B6F-49D7-8696-FAE82ACC2012}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SwitchDemo", "SwitchDemo\SwitchDemo.csproj", "{85DE8A62-1B6F-49D7-8696-FAE82ACC2012}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise7", "Exercise7\Exercise7.csproj", "{FB2F99C2-510F-461C-8D18-397F8D3A7476}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercise7", "Exercise7\Exercise7.csproj", "{FB2F99C2-510F-461C-8D18-397F8D3A7476}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo_Error_If_Statement", "Demo_Error_If_Statement\Demo_Error_If_Statement.csproj", "{ED0AC784-2DB3-443B-90D7-AD89A05FA335}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{FB2F99C2-510F-461C-8D18-397F8D3A7476}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FB2F99C2-510F-461C-8D18-397F8D3A7476}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FB2F99C2-510F-461C-8D18-397F8D3A7476}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED0AC784-2DB3-443B-90D7-AD89A05FA335}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED0AC784-2DB3-443B-90D7-AD89A05FA335}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED0AC784-2DB3-443B-90D7-AD89A05FA335}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED0AC784-2DB3-443B-90D7-AD89A05FA335}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
