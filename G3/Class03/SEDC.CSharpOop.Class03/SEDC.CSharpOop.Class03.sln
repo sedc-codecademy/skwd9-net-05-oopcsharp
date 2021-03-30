@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SEDC.CSharp.Class03.Loops",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SEDC.CSharpOop.Class03.Excerscises", "SEDC.CSharpOop.Class03.Excerscises\SEDC.CSharpOop.Class03.Excerscises.csproj", "{1E92DFCE-7015-44A4-8D56-1EE66B96894D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SEDC.CSharpOop.Class03.Arrays", "SEDC.CSharpOop.Class03.Arrays\SEDC.CSharpOop.Class03.Arrays.csproj", "{0F38F66C-EE34-435F-BF61-721572288697}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{1E92DFCE-7015-44A4-8D56-1EE66B96894D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1E92DFCE-7015-44A4-8D56-1EE66B96894D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1E92DFCE-7015-44A4-8D56-1EE66B96894D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F38F66C-EE34-435F-BF61-721572288697}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F38F66C-EE34-435F-BF61-721572288697}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F38F66C-EE34-435F-BF61-721572288697}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F38F66C-EE34-435F-BF61-721572288697}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
