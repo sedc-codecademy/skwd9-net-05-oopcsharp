@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.31005.135
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SEDC.CSharp.Class03.Loops", "SEDC.CSharp.Class03.Loops\SEDC.CSharp.Class03.Loops.csproj", "{73DE8C49-C645-4E18-951B-11F45D1A8E6C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SEDC.CSharpOop.Class03.Excerscises", "SEDC.CSharpOop.Class03.Excerscises\SEDC.CSharpOop.Class03.Excerscises.csproj", "{1E92DFCE-7015-44A4-8D56-1EE66B96894D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{73DE8C49-C645-4E18-951B-11F45D1A8E6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{73DE8C49-C645-4E18-951B-11F45D1A8E6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{73DE8C49-C645-4E18-951B-11F45D1A8E6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E92DFCE-7015-44A4-8D56-1EE66B96894D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E92DFCE-7015-44A4-8D56-1EE66B96894D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E92DFCE-7015-44A4-8D56-1EE66B96894D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E92DFCE-7015-44A4-8D56-1EE66B96894D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
