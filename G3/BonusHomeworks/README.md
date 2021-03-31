@@ -14,6 +14,7 @@ Write a program that will find out the sum of all odd numbers in the range 1-N (
 Write a program that will find out the sum of all numbers that divide 5 in the range 1-N (N is input from keyboard).
 ## Task 7:
 Write a program that will reverse the array {“a”,”b”,”c”,”d”} so that the output is {“d”,“c”,“b”,“a”}.
+	- Do NOT use reverse array method :) 
 ## Task 8:
 Write a program that will read two arrays from console input. Then the program has to make a comparison of the arrays and determine whether they are equal or not.
 { 1, 2, 3, 4 } == { 1, 2, 3, 4 }
