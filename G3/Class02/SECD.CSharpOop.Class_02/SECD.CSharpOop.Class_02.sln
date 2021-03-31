@@ -5,11 +5,13 @@ VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SEDC.CSharpOop.Class_02.ConsoleApp", "SEDC.CSharpOop.Class_02.ConsoleApp\SEDC.CSharpOop.Class_02.ConsoleApp.csproj", "{91554F3B-1D42-47C7-9C2A-281507C83279}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SEDC.CSharpOop.Class_02.Branching", "SEDC.CSharpOop.Class_02.Branching\SEDC.CSharpOop.Class_02.Branching.csproj", "{FAD67BA6-3F95-4453-ADAB-E291E607D3E4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SEDC.CSharpOop.Class_02.Branching", "SEDC.CSharpOop.Class_02.Branching\SEDC.CSharpOop.Class_02.Branching.csproj", "{FAD67BA6-3F95-4453-ADAB-E291E607D3E4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SEDC.CSharpOop.Class_2.Operators", "SEDC.CSharpOop.Class_2.Operators\SEDC.CSharpOop.Class_2.Operators.csproj", "{8EE23007-11E3-440D-A8F0-10DD9CD96FC9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SEDC.CSharpOop.Class_2.Operators", "SEDC.CSharpOop.Class_2.Operators\SEDC.CSharpOop.Class_2.Operators.csproj", "{8EE23007-11E3-440D-A8F0-10DD9CD96FC9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SEDC.CSharpOop.Class_02.DataConvertion", "SEDC.CSharpOop.Class_02.DataConvertion\SEDC.CSharpOop.Class_02.DataConvertion.csproj", "{2B37EB62-4D0F-4F77-B6EC-07815B311B41}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SEDC.CSharpOop.Class_02.DataConvertion", "SEDC.CSharpOop.Class_02.DataConvertion\SEDC.CSharpOop.Class_02.DataConvertion.csproj", "{2B37EB62-4D0F-4F77-B6EC-07815B311B41}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SEDC.CsharpOop.Class_02.FromLastClass", "SEDC.CsharpOop.Class_02.FromLastClass\SEDC.CsharpOop.Class_02.FromLastClass.csproj", "{2EBC4244-9E80-4692-8DCD-2AEEEA733210}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,7 +23,10 @@ Global
 		{91554F3B-1D42-47C7-9C2A-281507C83279}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{91554F3B-1D42-47C7-9C2A-281507C83279}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{91554F3B-1D42-47C7-9C2A-281507C83279}.Release|Any CPU.Build.0 = Release|Any CPU
-<<<<<<< HEAD
+		{FAD67BA6-3F95-4453-ADAB-E291E607D3E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAD67BA6-3F95-4453-ADAB-E291E607D3E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAD67BA6-3F95-4453-ADAB-E291E607D3E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAD67BA6-3F95-4453-ADAB-E291E607D3E4}.Release|Any CPU.Build.0 = Release|Any CPU
 		{8EE23007-11E3-440D-A8F0-10DD9CD96FC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8EE23007-11E3-440D-A8F0-10DD9CD96FC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8EE23007-11E3-440D-A8F0-10DD9CD96FC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -30,12 +35,10 @@ Global
 		{2B37EB62-4D0F-4F77-B6EC-07815B311B41}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2B37EB62-4D0F-4F77-B6EC-07815B311B41}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2B37EB62-4D0F-4F77-B6EC-07815B311B41}.Release|Any CPU.Build.0 = Release|Any CPU
-=======
-		{FAD67BA6-3F95-4453-ADAB-E291E607D3E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FAD67BA6-3F95-4453-ADAB-E291E607D3E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FAD67BA6-3F95-4453-ADAB-E291E607D3E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FAD67BA6-3F95-4453-ADAB-E291E607D3E4}.Release|Any CPU.Build.0 = Release|Any CPU
->>>>>>> 1f0c2e2c52b79ccd4ef93e28080ee023de427713
+		{2EBC4244-9E80-4692-8DCD-2AEEEA733210}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EBC4244-9E80-4692-8DCD-2AEEEA733210}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EBC4244-9E80-4692-8DCD-2AEEEA733210}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EBC4244-9E80-4692-8DCD-2AEEEA733210}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

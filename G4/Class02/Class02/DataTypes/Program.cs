@@ -88,7 +88,7 @@ namespace DataTypes
             // Exercise 02
 
             string bookString01 = "Zoki";
-            string bookString02 = "Vaksajns";
+            string bookString02 = "Poki";
             string sumBooksString = bookString01 + " " + bookString02;
             Console.WriteLine(sumBooksString);
 
