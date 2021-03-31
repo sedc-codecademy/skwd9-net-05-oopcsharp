@@ -49,6 +49,42 @@ namespace Arrays
             {
                 Console.WriteLine(name);
             }
+
+            //multidimensional arrays
+            // | | | | |
+            // | | | | |
+            // | | | | |
+            int[,] twoDimensionalArray = new int[3, 4];
+            twoDimensionalArray[0, 0] = 0;
+            twoDimensionalArray[0, 1] = 1;
+            twoDimensionalArray[0, 2] = 2;
+            twoDimensionalArray[0, 3] = 3;
+            twoDimensionalArray[1, 0] = 4;
+            twoDimensionalArray[1, 1] = 5;
+            twoDimensionalArray[1, 2] = 6;
+            twoDimensionalArray[1, 3] = 7;
+            twoDimensionalArray[2, 0] = 8;
+            twoDimensionalArray[2, 1] = 9;
+            twoDimensionalArray[2, 2] = 10;
+            twoDimensionalArray[2, 3] = 11;
+
+            //for(int i = 0; i < 4; i++)
+            //{
+            //    for (int j = 0; j < 3; j++)
+            //    {
+            //        Console.WriteLine(twoDimensionalArray[j, i]);
+            //    }
+            //}
+
+            for (int i = 0; i < 3; i++)
+            {
+                for (int j = 0; j < 4; j++)
+                {
+                    Console.Write(twoDimensionalArray[i, j] + " ");
+                }
+
+                Console.WriteLine();
+            }
         }
     }
 }
