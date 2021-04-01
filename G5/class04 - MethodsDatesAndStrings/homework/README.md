@@ -1,6 +1,6 @@
 ## Homework 
 
-1. Create a Method that takes an age in years and returns the age in days.
+## 1. Create a Method that takes an age in years and returns the age in days.
 
 Examples:
 
@@ -13,7 +13,7 @@ Use 365 days as the length of a year for this challenge.
 Ignore leap years and days between last birthday and now.
 Expect only positive integer inputs.
 
-2. Write a Method that takes an integer minutes and converts it to seconds.
+## 2. Write a Method that takes an integer minutes and converts it to seconds.
 
 Examples: 
 
@@ -25,7 +25,7 @@ Notes:
 Do not use DateTime()
 
 
-3. Create a function that takes the number of wins, draws and losses and calculates the number of points a football team has obtained so far.
+## 3. Create a function that takes the number of wins, draws and losses and calculates the number of points a football team has obtained so far.
 
 - wins get 3 points
 - draws get 1 point
