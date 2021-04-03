@@ -7,7 +7,6 @@ namespace LoopsAndArrays
         static void Main(string[] args)
         {
             Console.WriteLine("------------- Part 1 (Loops) -------------------------");
-
             #region For
 
             // For loop

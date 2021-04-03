@@ -49,7 +49,7 @@ namespace Strings
             //Console.WriteLine(testString.Trim().ToUpper());
 
             // StartsWith() => returns true or false
-            Console.WriteLine(testString.StartsWith("   We are "));
+            // Console.WriteLine(testString.StartsWith("   We are "));
 
             //indexOf => returns index (int)
             //Console.WriteLine(testString.IndexOf("We"));
@@ -69,7 +69,12 @@ namespace Strings
             string substring1 = testString.Substring(5);
             // Console.WriteLine(substring1);
             string substring2 = testString.Substring(6, 3);
-            Console.WriteLine(substring2);
+
+            // ToCharArray
+            char[] charsFromTestString = testString.ToCharArray();
+            Array.Reverse(charsFromTestString);
+            string result = string.Join("", charsFromTestString);
+            Console.WriteLine(result);
             Console.ReadLine();
         }
     }
