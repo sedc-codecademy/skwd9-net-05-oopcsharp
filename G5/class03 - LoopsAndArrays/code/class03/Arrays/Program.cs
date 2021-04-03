@@ -41,6 +41,45 @@ namespace Arrays
             {
                 Console.WriteLine(name);
             }
+
+            //Resize
+            int[] integers2 = new int[5];
+
+            //integers2[5] = 100;
+
+            Array.Resize(ref integers2, 7);
+            integers2[5] = 100;
+            Console.WriteLine(integers2[5]);
+
+            Console.WriteLine("=======================");
+
+            int numberOne = 1;
+            int numberTwo = Mtd(ref numberOne);
+
+            Console.WriteLine(numberOne);
+            Console.WriteLine(numberTwo);
+
+            numberTwo = 10;
+
+            Console.WriteLine(numberOne);
+            Console.WriteLine(numberTwo);
+
+            Console.WriteLine("=======================");
+
+            int[] integers3 = { 1, 2, 3, 4, 5, 6 };
+
+            Array.Resize(ref integers3, 4);
+            //Console.WriteLine(integers3[5]);
+        }
+
+        static int Mtd(ref int refArguemnt)
+        {
+            return refArguemnt += 100;
+        }
+
+        static int Mtd2(int number)
+        {
+            return number += 100;
         }
     }
 }

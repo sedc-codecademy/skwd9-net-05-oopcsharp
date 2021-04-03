@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31112.23
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loops", "Loops\Loops.csproj", "{9EFD2FA2-6E94-44F9-8A17-47559D2872D1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loops", "Loops\Loops.csproj", "{9EFD2FA2-6E94-44F9-8A17-47559D2872D1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays", "Arrays\Arrays.csproj", "{C9D5634A-B4BA-4634-BF38-BEE54F8D2A3B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arrays", "Arrays\Arrays.csproj", "{C9D5634A-B4BA-4634-BF38-BEE54F8D2A3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise6", "Exercise6\Exercise6.csproj", "{C11114B7-1A89-458B-A016-9AD60F9A1374}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{C9D5634A-B4BA-4634-BF38-BEE54F8D2A3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C9D5634A-B4BA-4634-BF38-BEE54F8D2A3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C9D5634A-B4BA-4634-BF38-BEE54F8D2A3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C11114B7-1A89-458B-A016-9AD60F9A1374}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C11114B7-1A89-458B-A016-9AD60F9A1374}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C11114B7-1A89-458B-A016-9AD60F9A1374}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C11114B7-1A89-458B-A016-9AD60F9A1374}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
