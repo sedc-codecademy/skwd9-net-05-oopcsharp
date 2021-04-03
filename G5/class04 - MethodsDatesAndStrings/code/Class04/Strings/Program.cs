@@ -40,6 +40,64 @@ namespace Strings
             string escape_n = "This sign \\n means new line";
             string escape_n_2 = @"This sign \n means new line";
             Console.WriteLine(escape_n_2);
+
+            //string methods
+            string ourString = "   We are learning. C# and it is FUN and EASY. Okay maybe just FUN.    ";
+
+            // Makes our string Upper/Lopwer case
+            string lower = ourString.ToLower();
+            string upper = ourString.ToUpper();
+            Console.WriteLine(lower);
+            Console.WriteLine(upper);
+
+            // Prints the length of the string
+            int ourLength = ourString.Length;
+            Console.WriteLine(ourLength);
+
+            // Splits the string and makes an array of strings
+            string[] spliitedString = ourString.Split(".");
+            Console.WriteLine(spliitedString.Length);
+            string str1 = spliitedString[0];
+            string str2 = spliitedString[1];
+            string str3 = spliitedString[2];
+            string str4 = spliitedString[3];
+            Console.WriteLine(str2);
+
+            string[] spliitedString2 = ourString.Split("FUN");
+
+            foreach (var str in spliitedString2)
+            {
+                Console.WriteLine(str);
+            }
+
+            //Checks of a string starts with some starting given and returns a boolean
+            bool startsWith = ourString.StartsWith("Viktor");
+            Console.WriteLine(startsWith);
+
+            //Checks if a string exists and if so returns an index. Returns -1 if the string does not exists.
+            //Is case sensitive
+            int indexOfString = ourString.IndexOf("F");
+            int nonExistingIndexOfString = ourString.IndexOf("f");
+            Console.WriteLine(indexOfString);
+            Console.WriteLine(nonExistingIndexOfString);
+
+            //Cuts a string in to a substring that starts from index 10 and takes the next 15 characters
+            string substring = ourString.Substring(10, 15);
+            Console.WriteLine(substring);
+
+            //Creates an array of characters from a given string
+            char[] charsArray = ourString.ToCharArray();
+
+            //foreach (var chars in charsArray)
+            //{
+            //    Console.WriteLine(chars);
+            //}
+
+            // It trims the white spaces at the front and the back of the string
+            string trimmedString = ourString.Trim();
+            Console.WriteLine(trimmedString);
+
+            Console.ReadLine();
         }
     }
 }
