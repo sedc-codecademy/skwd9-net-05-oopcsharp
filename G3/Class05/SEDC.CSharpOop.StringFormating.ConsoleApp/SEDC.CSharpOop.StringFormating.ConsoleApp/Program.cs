@@ -92,6 +92,20 @@ namespace SEDC.CSharpOop.StringFormating.ConsoleApp
             //}
             Console.ReadLine();
             #endregion
+            //Exercise
+            Console.WriteLine("Please enter a number");
+            string userInput = Console.ReadLine();
+            bool isValidNumber = int.TryParse(userInput, out int number);
+            if (isValidNumber)
+            {
+                string result = Substring("Hello from SEDC Code Academy", number);
+                Console.WriteLine(result);
+                Console.WriteLine($"The number of characters of the new string is {result.Length}");
+            }
+        }
+        static string Substring(string input, int numberOfWords)
+        {
+            return input.Substring(0, numberOfWords);
         }
     }
 }
