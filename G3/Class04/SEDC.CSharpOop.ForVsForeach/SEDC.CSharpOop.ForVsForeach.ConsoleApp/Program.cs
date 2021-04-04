@@ -56,31 +56,48 @@ namespace SEDC.CSharpOop.ForVsForeach.ConsoleApp
             //        Console.WriteLine(number);
             //    }
             //}
-
-            //Task 6
-            string[] names = new string[2];
-            names[0] = "Damjan";
-            names[1] = "Trajan";
-            string newName;
-            string userInput;
-            do
+            //Task 5
+            int[] numbersArray = new int[5];
+            int sum = 0;
+            for(int i = 1; i <= 5; i++)
             {
-                Console.WriteLine("Please enter a name");
-                newName = Console.ReadLine();
-                Array.Resize(ref names, names.Length + 1);
-                names[names.Length - 1] = newName;
-                Console.WriteLine("You have entered the name " + newName + " in the array");
-                Console.WriteLine("Would you like to enter an other name?");
-                userInput = Console.ReadLine();
-                if (userInput != "y" && userInput != "Y")
+                Console.WriteLine("Please enter a number");
+                string numberInput = Console.ReadLine();
+                bool isValidNumber = int.TryParse(numberInput, out int number);
+                if (isValidNumber)
                 {
-                    Console.WriteLine("The names in the array are ");
-                    foreach (var name in names)
-                    {
-                        Console.WriteLine(name);
-                    }
+                    numbersArray[i - 1] = number;
+                    Console.WriteLine($"The {i} number that was added in the array is: {number}");
+                    sum += number;
+                    continue;
                 }
-            } while (userInput == "y" || userInput == "Y");
+                Console.WriteLine("The added input was not valid number. The program will count it as 0.");
+            }
+            Console.WriteLine($"The sum of the added numbers is {sum}");
+            //Task 6
+            //string[] names = new string[2];
+            //names[0] = "Damjan";
+            //names[1] = "Trajan";
+            //string newName;
+            //string userInput;
+            //do
+            //{
+            //    Console.WriteLine("Please enter a name");
+            //    newName = Console.ReadLine();
+            //    Array.Resize(ref names, names.Length + 1);
+            //    names[names.Length - 1] = newName;
+            //    Console.WriteLine("You have entered the name " + newName + " in the array");
+            //    Console.WriteLine("Would you like to enter an other name?");
+            //    userInput = Console.ReadLine();
+            //    if (userInput != "y" && userInput != "Y")
+            //    {
+            //        Console.WriteLine("The names in the array are ");
+            //        foreach (var name in names)
+            //        {
+            //            Console.WriteLine(name);
+            //        }
+            //    }
+            //} while (userInput == "y" || userInput == "Y");
             Console.Read();
         }
     }
