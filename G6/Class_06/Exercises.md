@@ -2,7 +2,7 @@
 
 ## Task 1
 
-You are given the following string "The whole group of G2 loves C#.They find learning this language fun and easy!". Print the text after the ".", using string methods.
+You are given the following string "The whole group of G6 loves C#.They find learning this language fun and easy!". Print the text after the ".", using string methods.
 
 ## Task 2
 Create a method called NumberStats that accepts a number. This method should:
