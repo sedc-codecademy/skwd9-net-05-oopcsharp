@@ -2,13 +2,13 @@
 
 * What is C#?
 * What is the .NET framework?
-* Difference between C# and .NET framework
+* Difference between C# and .NET framework?
 * Why is it Strict-typed?
-* What are Data types in C# and how they are different from javascript
+* What are Data types in C# and how they are different from javascript?
 * What is data parisng ?
 * What is the difference between .parse and .TryParse?
 * What is branching ?
-* What is the difference between while and do while loop What are Data types in C# and how they are different from javascript
+* What is the difference between while and do while loop What are Data types in C# and how they are different from javascript?
 * How can we escape special character in C# strings?
 * What are arrays in c# and how they differentiate from javascript arrays?
 * What are Methods in C#?
@@ -16,7 +16,7 @@
 * What is object-oriented programing and why it is important?
 * What are classes?
 * How do classes work and why they are important for OOP?
-* Difference between Classes and Objects
+* Difference between Classes and Objects?
 * What is constructor in a Class?
 * What are access modifiers? 
 
