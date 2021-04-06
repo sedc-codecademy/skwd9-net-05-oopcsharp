@@ -38,7 +38,15 @@ namespace SEDC.CSharpOop.Class06.ClassesApp
             toyota.Buy(20000);
             toyota.CheckIfProductIsBought();
 
+            // Creating an annonimous object
+            // We cant add methods in these objects, just properties
+            var anonymousObject = new
+            {
+                Name = "Random Objcet",
+                Quantity = 23
+            };
 
+            Console.WriteLine(anonymousObject.Name);
 
             Console.ReadLine();
         }
