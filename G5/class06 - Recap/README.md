@@ -8,7 +8,8 @@
 * What is data parisng ?
 * What is the difference between .parse and .TryParse?
 * What is branching ?
-* What is the difference between while and do while loop What are Data types in C# and how they are different from javascript?
+* What is the difference between while and do while loop?
+* What are continue and break used for?
 * How can we escape special character in C# strings?
 * What are arrays in c# and how they differentiate from javascript arrays?
 * What are Methods in C#?
