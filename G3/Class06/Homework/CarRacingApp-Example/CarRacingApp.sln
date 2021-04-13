@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarRacingApp.ConsoleApp", "CarRacingApp.ConsoleApp\CarRacingApp.ConsoleApp.csproj", "{27101B3C-9C09-4B91-9F58-3C6ABCC97F2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RaceApp.Domain", "RaceApp.Domain\RaceApp.Domain.csproj", "{DF52C9DC-8140-4107-BE33-AE8D1CBC7918}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{27101B3C-9C09-4B91-9F58-3C6ABCC97F2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27101B3C-9C09-4B91-9F58-3C6ABCC97F2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27101B3C-9C09-4B91-9F58-3C6ABCC97F2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27101B3C-9C09-4B91-9F58-3C6ABCC97F2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF52C9DC-8140-4107-BE33-AE8D1CBC7918}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF52C9DC-8140-4107-BE33-AE8D1CBC7918}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF52C9DC-8140-4107-BE33-AE8D1CBC7918}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF52C9DC-8140-4107-BE33-AE8D1CBC7918}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9BC4EE53-1219-4E91-B51F-5BD63948F96B}
+	EndGlobalSection
+EndGlobal
