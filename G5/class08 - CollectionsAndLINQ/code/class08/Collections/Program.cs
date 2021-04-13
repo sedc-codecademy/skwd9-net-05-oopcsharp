@@ -43,6 +43,13 @@ namespace Collections
             dictionaryOne.Add("song3", "songName3");
             Console.WriteLine(dictionaryOne["song1"]);
 
+            Console.WriteLine("======");
+            foreach (var item in dictionaryOne)
+            {
+                Console.WriteLine($"{item.Key} - {item.Value}");
+            }
+            Console.WriteLine("======");
+
             //creating and initializing a Dictionary
             Dictionary<int, string> dictionaryTwo = new Dictionary<int, string> 
             {
