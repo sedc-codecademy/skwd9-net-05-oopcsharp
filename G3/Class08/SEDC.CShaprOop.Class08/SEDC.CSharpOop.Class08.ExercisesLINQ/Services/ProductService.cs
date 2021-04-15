@@ -75,6 +75,7 @@ namespace SEDC.CSharpOop.Class08.ExercisesLINQ.Services
         //Get only products names // return only the names of the products
         public List<string> GetProductNames()
         {
+            int number = int.Parse("Hello");
             List<string> names = Products.Select(product => product.Name).ToList();
             return names;
         }
@@ -89,10 +90,10 @@ namespace SEDC.CSharpOop.Class08.ExercisesLINQ.Services
             Product product = Products // null
                 .FirstOrDefault(product => product.Name.ToLower() == name.ToLower());
 
-            if(product == null)
-            {
-                return -1;
-            }
+            //if(product == null)
+            //{
+            //    throw new System.Exception();
+            //}
 
             return product.Price;
         }
