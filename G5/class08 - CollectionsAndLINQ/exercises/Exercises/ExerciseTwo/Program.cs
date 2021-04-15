@@ -6,6 +6,7 @@ namespace ExerciseTwo
     {
         static void Main(string[] args)
         {
+
         }
     }
 }
