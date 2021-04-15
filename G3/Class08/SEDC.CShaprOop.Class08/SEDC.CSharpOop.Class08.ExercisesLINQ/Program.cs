@@ -1,4 +1,6 @@
-﻿using System;
+﻿using SEDC.CSharpOop.Class08.ExercisesLINQ.Classes;
+using SEDC.CSharpOop.Class08.ExercisesLINQ.Services;
+using System;
 
 namespace SEDC.CSharpOop.Class08.ExercisesLINQ
 {
@@ -6,7 +8,14 @@ namespace SEDC.CSharpOop.Class08.ExercisesLINQ
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            ProductService productService = new ProductService();
+
+            // TODO: Test this methods
+            Product product = productService.GetCheapestProductLINQ();
+
+            Console.WriteLine($"{product.Name} with price {product.Price} in category {product.Category}");
+
+            Console.ReadLine();
         }
     }
 }

@@ -1,5 +1,6 @@
 ﻿using SEDC.CSharpOop.Class08.ExercisesLINQ.Classes;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace SEDC.CSharpOop.Class08.ExercisesLINQ.Services
 {
@@ -29,15 +30,99 @@ namespace SEDC.CSharpOop.Class08.ExercisesLINQ.Services
             new Product() { Name =  "SONY RW78OS", Price = 179999, Category = Category.TV },
             new Product() { Name =  "Samsung Oval", Price = 247999, Category = Category.TV }
         };
-        //Search products by category // return all products from given category
-        //Filter products by price range(from min to max) // return all products that fall in the given price range
-        //Find products by part of name // get all products that consist the part in their names
-        //Get only products ids // return only the ids of the products
-        //Get product price // get the price of the product - give the id as parameter
-        //Get cheapest product // return the cheapest product
-        //Get most expensive product // return the most expensive one
+
         //Add product // create method to add product to the list of products
+        public void AddProduct(Product product)
+        {
+            Products.Add(product);
+        }
+
         //Remove product // and a method to remove it - use id as parameter
-        //Don't forget to create class Product
+        public bool RemoveProduct(Product product)
+        {
+            int count = Products.Count; // 33
+            Products.Remove(product); // remove product
+            bool isRemoved = count != Products.Count; // 33 != 32 // prev count != current count
+            return isRemoved;
+        }
+
+        //Search products by category // return all products from given category
+        public List<Product> SearchProductsByCategory(Category category)
+        {
+            List<Product> products = Products.Where(product => product.Category == category).ToList();
+            return products;
+        }
+
+        //Filter products by price range(from min to max) // return all products that fall in the given price range
+        public List<Product> FilterProductsByPriceRange(int min, int max)
+        {
+            List<Product> products = Products.Where(product => product.Price >= min && product.Price <= max).ToList();
+            return products;
+        }
+
+        //Find products by part of name // get all products that consist the part in their names
+        public List<Product> FilterProductsByNamePart(string namePart)
+        {
+            //string a = "Trajan Stevkovski";
+            //string b = "vkovs";
+            //bool res = a.Contains(b); // Does string b is contained in string a
+            List<Product> products = Products.Where(product => 
+                product.Name.ToLower()
+                    .Contains(namePart.ToLower())).ToList();
+            return products;
+        }
+
+        //Get only products names // return only the names of the products
+        public List<string> GetProductNames()
+        {
+            List<string> names = Products.Select(product => product.Name).ToList();
+            return names;
+        }
+
+        //Get product price // get the price of the product - give the name as parameter
+        public int GetProductPrice(string name)
+        {
+            // using where
+            //Product searchedProduct = Products
+            //    .Where(product => product.Name.ToLower() == name.ToLower())
+            //    .FirstOrDefault();
+            Product product = Products // null
+                .FirstOrDefault(product => product.Name.ToLower() == name.ToLower());
+
+            if(product == null)
+            {
+                return -1;
+            }
+
+            return product.Price;
+        }
+
+        //Get cheapest product // return the cheapest product
+        public Product GetCheapestProduct()
+        {
+            Product product1 = new Product();
+            int cheapestPrice = Products[0].Price;
+            foreach(Product product in Products)
+            {
+                if(cheapestPrice >= product.Price)
+                {
+                    product1 = product;
+                    cheapestPrice = product.Price;
+                }
+            }
+
+            return product1;
+        }
+
+        public Product GetCheapestProductLINQ()
+        {
+            return Products.OrderBy(product => product.Price).FirstOrDefault();
+        }
+
+        //Get most expensive product // return the most expensive one
+        public Product GetMostExpensiveProduct()
+        {
+            return Products.OrderBy(product => product.Price).LastOrDefault();
+        }
     }
 }
