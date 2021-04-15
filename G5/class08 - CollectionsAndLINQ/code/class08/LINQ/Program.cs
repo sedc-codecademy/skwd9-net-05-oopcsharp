@@ -31,7 +31,7 @@ namespace LINQ
             List<Dog> startsWithS = dogs.Where(dog => dog.Name.StartsWith("S")).ToList();
 
             // First dog that is of age 1 and have a name that starts with B
-            Dog Age1StartsWithB = dogs.Where(dogs => dogs.Age == 1).Where(dogs => dogs.Name.StartsWith("B")).First();
+            Dog Age1StartsWithB = dogs.Where(dogs => dogs.Age == 1 && dogs.Name.StartsWith("B")).First();
 
 
             // .Select() - (map in JS)
