@@ -16,7 +16,7 @@
 * What is the difference between build time errors and runtime errors?
 * How do we handle runtime errors?
 * What are exceptions?
-* How can we create and throw custom exception?
+* How can we create and throw custom exceptions?
 
 ## Task 1
 ### Create an ATM application 
