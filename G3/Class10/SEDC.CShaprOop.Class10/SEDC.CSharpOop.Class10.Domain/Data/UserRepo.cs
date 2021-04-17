@@ -10,19 +10,19 @@ namespace SEDC.CSharpOop.Class10.Domain.Data
     {
         public Admin GetAdminByEmail(string email)
         {
-            Admin admin = InMemoryDatabase.Admins.First(admin => admin.Email == email);
+            Admin admin = InMemoryDatabase.Admins.FirstOrDefault(admin => admin.Email == email);
             return admin;
         }
 
         public Student GetStudentByEmail(string email)
         {
-            Student student = InMemoryDatabase.Students.First(student => student.Email == email);
+            Student student = InMemoryDatabase.Students.FirstOrDefault(student => student.Email == email);
             return student;
         }
 
         public Trainer GetTrainerByEmail(string email)
         {
-            Trainer trainer = InMemoryDatabase.Trainers.First(trainer => trainer.Email == email);
+            Trainer trainer = InMemoryDatabase.Trainers.FirstOrDefault(trainer => trainer.Email == email);
             return trainer;
         }
     }
