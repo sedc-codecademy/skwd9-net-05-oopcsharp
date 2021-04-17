@@ -1,6 +1,7 @@
 # Class 10 - Recap Part 2 📒
 
 ○ What is static class?
+
 ○ From how many classes can we inherit from in C#?
 ○ What is class-based inheritance?
 ○ What are virtual and ovrride keywords used for?
