@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqQuering", "LinqQuering\LinqQuering.csproj", "{3257A212-B715-47CD-80C8-79E102BF75D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ErrorHandlingAndExceptions", "ErrorHandlingAndExceptions\ErrorHandlingAndExceptions.csproj", "{DC96D2B5-455C-448F-A535-E5C378044B9F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3257A212-B715-47CD-80C8-79E102BF75D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3257A212-B715-47CD-80C8-79E102BF75D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3257A212-B715-47CD-80C8-79E102BF75D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3257A212-B715-47CD-80C8-79E102BF75D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC96D2B5-455C-448F-A535-E5C378044B9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC96D2B5-455C-448F-A535-E5C378044B9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC96D2B5-455C-448F-A535-E5C378044B9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC96D2B5-455C-448F-A535-E5C378044B9F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {45B62433-2A62-4398-87DE-642615002F44}
+	EndGlobalSection
+EndGlobal
