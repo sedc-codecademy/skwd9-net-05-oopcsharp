@@ -1,25 +1,25 @@
 # Class 10 - Recap Part 2 📒
 
-○ What is static class?
-○ From how many classes can we inherit from in C#?
-○ What is class-based inheritance?
-○ What are virtual and ovrride keywords used for?
-○ How can we call the constructor of the parent class?
-○ What can classes inherit from?
-○ Why is inheritance important in OOP?
-○ What are enumerations (enums) and when should we use them? 
-○ What is a class library project?
-○ What kind of different collection types we have in C# and what is the diference between them?
-○ What methods are specific for each of this colletions?
-○ What is LINQ and how can we use it?
-○ What LINQ methods do you know? 
-○ What is the difference between build time errors and runtime errors?
-○ How do we handle runtime errors?
-○ What are exceptions?
-○ How can we create and throw custom exception?
+* What is static class?
+* From how many classes can we inherit from in C#?
+* What is class-based inheritance?
+* What are virtual and ovrride keywords used for?
+* How can we call the constructor of the parent class?
+* What can classes inherit from?
+* Why is inheritance important in OOP?
+* What are enumerations (enums) and when should we use them? 
+* What is a class library project?
+* What kind of different collection types we have in C# and what is the diference between them?
+* What methods are specific for each of this colletions?
+* What is LINQ and how can we use it?
+* What LINQ methods do you know? 
+* What is the difference between build time errors and runtime errors?
+* How do we handle runtime errors?
+* What are exceptions?
+* How can we create and throw custom exception?
 
 ## Task 1
-### Create an ATM application
+### Create an ATM application 
 Create an ATM application. A customer should be able to authenticate with card number and pin and should be greeted with a message greeting them by full name. After that they can choose one of the following:
 1) Balance checking - This should print out the current balance of money on their account
 2) Cash withdrawal - This should try and withdraw cash from the users account and print a message. If it has enough it should print a success message that contains the money withdrawn and the balance of money after the withdrawal  
